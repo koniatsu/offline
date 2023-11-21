@@ -15,6 +15,7 @@ window.addEventListener("offline", () => {
   document.querySelector(".results2").innerHTML = "インターネットから切断されました";
 });
 */
+
 const updateOnlineStatus = () => {
   document.getElementById('results').innerHTML = navigator.onLine ? 'online' : 'offline'
 }
